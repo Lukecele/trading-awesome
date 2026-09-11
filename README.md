@@ -507,7 +507,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [97] Bokeh — [Official site](https://bokeh.org/) · [Docs](https://docs.bokeh.org/)  
 [98] mplfinance — [GitHub](https://github.com/matplotlib/mplfinance)  
 [99] Congress Trading Pipeline — [GitHub](https://github.com/seralifatih/congress-trading-pipeline) · [Senate actor](https://apify.com/seralifatih/congress-trading-pipeline) · [House actor](https://apify.com/seralifatih/congress-trading-pipeline-1)
-[100] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)**[Squelch](https://squelchalerts.netlify.app/)** [139]
+[100] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)
 [101] Polymarket — [Official site](https://polymarket.com/) · [Developer docs](https://docs.polymarket.com/) · [Trading quickstart](https://docs.polymarket.com/trading/quickstart)
 [102] Kalshi — [Official site](https://kalshi.com/) · [API docs](https://docs.kalshi.com/) · [Official SDKs](https://docs.kalshi.com/sdks/overview)
 [103] FRED / ALFRED API — [FRED](https://fred.stlouisfed.org/) · [API docs](https://fred.stlouisfed.org/docs/api/fred/) · [Terms](https://fred.stlouisfed.org/docs/api/terms_of_use.html)
