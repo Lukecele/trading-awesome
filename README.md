@@ -190,6 +190,7 @@ A signal is an input to a decision process, not a promise of profit. This sectio
 | 57 | **[GDELT](https://www.gdeltproject.org/)** [56] | Open global news and event datasets for custom geopolitical, narrative, and media-attention signals. | Global news; macro; alternative data; Research / automation | [DOC API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/) · [data access](https://www.gdeltproject.org/data.html) · Py/Go/PHP: direct HTTP or BigQuery clients | Open datasets and public endpoints; downstream cloud-query or storage charges may apply. |
 | 58 | **[SignalStack](https://signalstack.com/)** [57] | Webhook-based order-routing layer that converts alerts from charting and strategy tools into broker orders. | Traditional markets; Forex / FX; crypto; Brokerage / execution | [Documentation](https://help.signalstack.com/) · Webhook integration · Py/Go/PHP: direct HTTP | Usage-based or subscription terms; broker fees remain separate. |
 |  | **[Congress Trading Pipeline](https://github.com/seralifatih/congress-trading-pipeline)** [99] | Primary-source, delayed congressional-disclosure event data: US House and Senate STOCK Act periodic transaction reports (PTRs) parsed directly from official Senate EFD and House Clerk sources into deduplicated JSON. | Traditional markets; Research / automation | Apify API / direct HTTP; self-hosted TypeScript · Py/Go/PHP: — | Usage-based: House from **$2 / 1,000 transaction records**, Senate from **$3 / 1,000**; see [House pricing](https://apify.com/seralifatih/congress-trading-pipeline-1) and [Senate pricing](https://apify.com/seralifatih/congress-trading-pipeline). |
+|  | **[Squelch](https://squelchalerts.netlify.app/)** [139] | Telegram bot that alerts on statistically confirmed crypto signals: funding-rate z-score extremes, sized exchange whale flow, news catalysts confirmed by price reaction, and GoPlus-screened meme-coin/token-risk flags. | Crypto — derivatives; Crypto — spot / on-chain / DeFi; Research / automation | No public API identified · Py/Go/PHP: — | $19/month flat subscription; 24-hour free trial; see [official site](https://squelchalerts.netlify.app/). |
 
 ---
 
@@ -506,7 +507,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [97] Bokeh — [Official site](https://bokeh.org/) · [Docs](https://docs.bokeh.org/)  
 [98] mplfinance — [GitHub](https://github.com/matplotlib/mplfinance)  
 [99] Congress Trading Pipeline — [GitHub](https://github.com/seralifatih/congress-trading-pipeline) · [Senate actor](https://apify.com/seralifatih/congress-trading-pipeline) · [House actor](https://apify.com/seralifatih/congress-trading-pipeline-1)
-[100] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)
+[100] DepthFeed — [Official site](https://depthfeed.com/) · [API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · [Pricing](https://depthfeed.com/pricing)**[Squelch](https://squelchalerts.netlify.app/)** [139]
 [101] Polymarket — [Official site](https://polymarket.com/) · [Developer docs](https://docs.polymarket.com/) · [Trading quickstart](https://docs.polymarket.com/trading/quickstart)
 [102] Kalshi — [Official site](https://kalshi.com/) · [API docs](https://docs.kalshi.com/) · [Official SDKs](https://docs.kalshi.com/sdks/overview)
 [103] FRED / ALFRED API — [FRED](https://fred.stlouisfed.org/) · [API docs](https://fred.stlouisfed.org/docs/api/fred/) · [Terms](https://fred.stlouisfed.org/docs/api/terms_of_use.html)
@@ -545,6 +546,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 [136] arXiv Quantitative Finance — [Official site](https://arxiv.org/archive/q-fin) · [API docs](https://arxiv.org/help/api/)
 [137] Thrive — [Official site](https://thrive.fi/) · [Documentation](https://thrive.fi/docs) · [Pricing](https://thrive.fi/pricing)
 [138] Northstar — [Official site](https://crypto.daan.gg/) · [API docs](https://crypto.daan.gg/developers/docs) · [Pricing](https://crypto.daan.gg/pricing)
+[139] Squelch — [Official site](https://squelchalerts.netlify.app/) · [Telegram bot](https://t.me/CryptoSignalsAlert_bot)
 ---
 
 ## License
