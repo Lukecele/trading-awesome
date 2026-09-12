@@ -30,7 +30,7 @@ Thank you for considering a contribution! This guide explains how to propose add
 1. **Fork** the repository
 2. **Create a branch**: `git checkout -b add-service-name`
 3. **Edit `README.md`** following the existing format (see template below)
-4. **Update the reference links** section with your source
+4. **Place the new entry in alphabetical order** by service name within its category table
 5. **Submit a PR** with a clear description
 
 ### Option 2: Open an Issue
@@ -48,16 +48,19 @@ If you're unsure about adding something, open an issue with:
 When adding a new service, use this structure:
 
 ```markdown
-| Rank | **[Service Name](https://example.com/)** [N] | Brief description of what it does. | Markets / scope labels | [API docs](https://docs.example.com/) · Py: [official/community](https://github.com/...) · Go: [official/community](https://github.com/...) · PHP: [official/community](https://github.com/...) | Pricing description with source. |
+| **[Service Name](https://example.com/)** | Brief description of what it does. | Markets / scope labels | [API docs](https://docs.example.com/) · Py: [official/community](https://github.com/...) · Go: [official/community](https://github.com/...) · PHP: [official/community](https://github.com/...) | Pricing description with source. |
 ```
+
+### Ordering
+
+Category tables are kept in **alphabetical order by service name** (case-insensitive). When adding an entry, insert it at the correct alphabetical position rather than appending it at the bottom. If a PR breaks the ordering, the maintainer will ask you to move the row before merge.
 
 ### Field guidelines
 
 | Field | Rules |
 |-------|-------|
-| **Rank** | Leave blank or suggest; the maintainer will assign based on editorial review |
+| **Placement** | Insert the row in **alphabetical order by service name** (case-insensitive) within its category table |
 | **Name** | Link to the official site. Use the brand's preferred capitalization |
-| **Superscript [N]** | Add a new reference number. Do not reuse existing numbers |
 | **Description** | One sentence. Be factual, not promotional |
 | **Markets / scope** | Use the coverage labels from the "How to use this list" section |
 | **API docs** | Link to public documentation. If no public API exists, write "No public API identified" |
@@ -73,13 +76,6 @@ When adding a new service, use this structure:
 - `Brokerage / execution`
 - `Research / automation`
 
-### Reference format
-
-Add your reference at the bottom of the README in the "Reference links" section:
-
-```markdown
-[N] Service Name — [Official site](https://...) · [Documentation](https://...) · [Pricing](https://...)
-```
 
 ---
 
@@ -145,7 +141,6 @@ If a service is shutting down or has been acquired, open an issue or PR to:
 
 - Use `**bold**` for service names and prices
 - Use `code` for API endpoints, package names, and technical terms
-- Use `[N]` superscripts for references (sequential, no gaps)
 - Keep table rows to a single line where possible
 
 ### Accessibility
@@ -160,7 +155,7 @@ If a service is shutting down or has been acquired, open an issue or PR to:
 
 1. **Automated checks**: CI runs link-checkers and markdown linting on PRs
 2. **Editorial review**: A maintainer reviews for accuracy, relevance, and formatting
-3. **Ranking assignment**: The maintainer assigns or adjusts the rank based on the criteria above
+3. **Placement check**: The maintainer verifies that the entry sits in alphabetical order within its category
 4. **Merge**: Once approved, the PR is merged and the list is updated
 
 Typical review time: **3–7 days**.
