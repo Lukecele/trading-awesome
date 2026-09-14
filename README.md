@@ -166,6 +166,7 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 | **[Northstar](https://crypto.daan.gg/)** | Volume-weighted cross-exchange crypto pair averages from live exchanges, distinct from catalog-style aggregators. | Crypto — spot; market data | [API docs](https://crypto.daan.gg/developers/docs) · Py: — · Go: — · PHP: — | Sandbox free (10k credits/mo, 120 req/min, 7-day history); Growth **€49/month** excl. VAT; Scale **€199/month**. |
 | **[Santiment](https://santiment.net/)** | Behavioral crypto-intelligence platform combining social, on-chain, development, NFT, and market metrics. | Crypto — on-chain / DeFi / NFTs; social intelligence | [SANAPI docs](https://academy.santiment.net/sanapi/) · Py: [official](https://github.com/santiment/sanpy) · Go: — · PHP: — | Free plan; paid Sanbase and business tiers are published by product. |
 | **[Whale Alert](https://whale-alert.io/)** | Real-time large-transaction monitoring and blockchain analytics via alert streams and enterprise REST data. | Crypto — on-chain; stablecoins; alerts | [API docs](https://developer.whale-alert.io/api-account/documentation) · Py: code examples only · Go: code examples only · PHP: — | Alerts API: **$29.95/month**; Enterprise API: **$699/month**. |
+- [HostDeFi](https://hostdefi.com) - Multi-chain swap aggregator front-end (Jupiter on Solana, KyberSwap on 8 EVM chains) with a built-in free A+–F token-safety scanner.
 
 ---
 
